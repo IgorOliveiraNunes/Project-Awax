@@ -838,7 +838,93 @@ width: 25px ;
         border-bottom:4px solid #aeaeae ;
     }
 
-
+    @media(max-width:800px) and (min-width:450px){
+        .logo{
+            margin-left:30px ;
+        }
+        .menu-opener{
+            display:block ;
+            width:45px ;
+            margin-right:30px ;
+        }
+        nav{
+            display:flex ;
+            position:absolute ;
+            z-index: 99;
+            background-color:rgba(0, 0, 0, 0.9);
+            width:70vw;
+            height:calc(100vh - 100px);
+            top:100px ;
+            right:0;
+        }
+        .menu ul{
+            flex-direction: column;
+        }
+        
+        .menu li a{
+            height: 80px;
+            font-size:25px ;
+            font-weight: bold; 
+            margin-left:50px ;
+            border:0 ;
+        }
+        .menu  li.active a{
+            color:#b28756 ;
+            border:0 ;
+        }
+        .section-aboutus{
+            flex-direction:column ;
+        }
+        .section-aboutus--left p{
+            font-size:30px ;
+            margin-left: 30px ;
+            margin-right: 30px ;
+            margin-bottom:30px ;
+        }
+        .section-aboutus--left .button{
+            align-items: center ;
+        }
+        .section-aboutus--right{
+            width:auto ;
+        }
+        .section-services{
+            flex-wrap: wrap;
+        }
+        .section-service{
+            min-width:50% ;
+            margin-bottom:20px ;
+        }
+        .section-team{
+            max-width:600px ;
+        }
+        .section-prices{
+            max-width: 800px ;
+            flex-wrap: wrap;
+            
+        }
+        .section-price{
+                max-width: 400px ;
+            }
+        .premium-bar{
+            flex-direction: column;
+        }
+        .section-services{
+            justify-content:center ;
+        }
+        .footer-prt1{
+            display:flex;
+            flex:0 ;
+        }
+        .footer-prt1 h4{
+            margin-top: 150px ;
+            
+        }
+        .footer-prt1 
+        .footer-icons{
+            flex-direction:column ;
+        }
+    }
+    
 
 
    
