@@ -3,7 +3,7 @@
 <a href="#sobre">Sobre</a> o
 <a href="#sobre">Tecnologias</a> o
 <br><br>
-o Homepage:  <a href=> Project-Awax--copy</a>
+o Homepage:  <a href=https://igoroliveiranunes.github.io/Project-Awax/> Project-Awax--copy</a>
 
 !
   
